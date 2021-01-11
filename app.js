@@ -9,7 +9,7 @@ const jwt = require('jsonwebtoken');
 const app = express();
 
 //connecting Mongo...
-const databaseURL = 'mongodb+srv://toyme23hell:p7lk4oxl4Ce82l3B@cluster0.lbw0w.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const databaseURL = ;
 mongoose.connect(databaseURL,{useUnifiedTopology: true,useNewUrlParser: true})
 .then(()=>{
     console.log('Database connected succesfully...')
