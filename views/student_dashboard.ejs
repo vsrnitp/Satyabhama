@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Dashboard</title>
+</head>
+<body>
+<h1 style="text-align: center;">Student Dashboard</h1>
+<br><br>
+
+
+
+	<% dataLoad.forEach(function( eachData){ %>
+	 
+		<h2 style="text-align: center;"><%= eachData.tittle%></h2>
+		<h4 style="text-align: center;"><%= eachData.post%></h4>
+		<h6><%= eachData.date%></h6>
+		<hr/>
+		
+		
+	  <% }) %>
+	
+</body>
+</html>
